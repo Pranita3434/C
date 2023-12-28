@@ -1,0 +1,104 @@
+Introduction
+
+1.The alert message contains the geographical coordinates,time and angle in which the accident has occurred. In cases where there is no casualty the message can be terminated with the help of a switch in order to avoid wasting the valuable time of the rescue team. 
+
+2.When an accident occurs it is detected with help of a sensor which activates the device, the sensor gives its output to the microcontroller.The microcontroller sends the alert message automatically to the police station and the relatives of the person. The message is sent through the GSM module and the location of the accident is detected with the help of the GPS module. Hence with this project implementation we can detect the position of the vehicle where the accident has occurred so that we can provide the first aid as early as possible.
+
+
+
+5.When an accident occurs, it is detected with help of a sensor which activates the device, the sensor gives its output to the microcontroller. The microcontroller sends the alert.
+
+6.We have used GPS and GSM module for our project. GPS (Global Positioning System) is a satellite navigation system used to determine the ground position of an object. It is a global navigation satellite system that provides geo location and time information to a GPS receiver anywhere on or near the Earth. Here GPS is used for both tracking and navigation. This enables a base station to keep track of the vehicles and navigation system helps the driver to reach the destination.
+
+7.GSM is an open, digital cellular technology used for transmitting mobile voice and data services. The GSM system is the most widely used cellular technology in use in the world today. It has been a particularly successful cellular phone technology for a variety of reasons including the ability to roam worldwide with the certainty of being able to operate on GSM networks. It is also highly economic and less expensive.
+
+8.A Switch is also provided in order to terminate the sending of a message in rare case where there is no casualty, this can save the precious time of the medical rescue team. 
+
+9.If an accident met in a national highway roads no one there to rescue the person to met with an accident this is due to lack of emergency facilities.
+ 
+10.Rescue team to overcome these drawback our paper proposed this method can automatic indicating device for vehicle accident. 
+
+11. Is used in this paper it is used protect the people from the risk as soon as possible after occurrence the accident wasting a time may leads to death.
+ 
+12. So this system will detect the accident within the less time and convey the information to the police station and to rescue system after a few seconds.
+
+13.Due the more road accident takes place in various cities. Nowadays the cause of death increasing more by
+accident. If an accident met in a national highway roads no one there to rescue the person to met with an accident this is due to lack of emergency facilities and rescue team to overcome these drawback our paper proposed this method can automatic indicating device for vehicle accident is used in this paper it is used protect the people from the risk as soon as possible after occurrence the accident wasting a time may leads to death.
+
+
+
+Related work/Literature Survey
+
+At present criteria, we cannot detect where the accident has occurred and hence no information related to it, leading to the death of an individual. The research work is going on for tracking the position of the vehicle even in dark clumsy areas where there is no network for receiving the signals. In this project GPS is used for tracking the position of the vehicle, GSM is used for sending the message and the ARM controller is used for saving the mobile number in the EEPROM and sends the message to it when an accident has been detected.Hence with this project implementation we can detect the position of the vehicle where the accident has occurred so that we can provide the first aid as early as possible.
+
+
+objectives
+
+In emergency condition, each and every second is important is saving human’s life. The theme of this project is to use each second efficiently to save person and to communicate as well as controls every part of system.
+• Finding the nearest ambulance to the accident spot
+• Personal data base to get the personal details like (contact details of family members, collage and family doctors.
+• Sending the notifications to the police station, hospital and predefined contacts from accident location.
+
+The main objective of this work is to design and develop an automatic accident detection and notification systems. Total work can be summarized as:
+•
+ 
+An ultrasonic sensor is used in a car alarm application so that vehicle in adangerous region can be detected.
+•
+ 
+An accelerometer and vibration sensors are used to detect the accident precisely with the rapid change of acceleration and vibration of the vehicle.
+•
+ 
+When a vehicle meets with an accident immediately vibration sensor willdetect the signal or if a car rolls over, accelerometer sensor will detect thesignal and sends it to microcontroller.
+•
+ 
+
+
+
+Microcontroller sends the alert message through the GSM MODEM includingthe location to police control room or a rescue team
+
+
+
+
+
+This system could be more reliable and useable if we develop or add some otherfeatures and systems. They are as follows:
+ 
+The Accident Alert System is a versatile system which can be modified towork with many other embedded circuits in vehicles to provide a number ofapplications.
+
+ 
+The Accident Alert System can be interfaced with the Air Bag system, which provides security to the driver in case of an accident.
+
+ 
+The circuit can be used for parking assistance in vehicles with slightmodifications.
+
+ 
+A Proximity sensor can be added to the circuit, which would alert the driver by beeping a buzzer if the driver is about to collide with the vehicle in front.
+
+ 
+The presence of GSM modem makes it possible to track the vehicle in case oftheft.
+
+The GPS modem makes it possible to make route navigation possible.
+ 
+A warning light or a loud horn can be interfaced with the circuit which isturned on in case of an accident, which draws the attention of the peoplenearby to the site of the accident
+
+
+
+
+
+
+J. Zaldivar, C. T. Calafate, J. C. Cano, and P. Manzoni, "Providing accident detectionin vehicular networks through OBD-II devices and Android-based smartphones," in2011 IEEE 36th Conference on Local Computer Networks, 2011: IEEE, pp. 813-819.
+
+M. S. Amin, M. A. S. Bhuiyan, M. B. I. Reaz, and S. S. Nasir, "GPS and Mapmatching based vehicle accident detection system," in 2013 IEEE Student Conferenceon Research and D
+evelopement, 2013: IEEE, pp. 520-523
+
+
+
+
+
+
+Wang Wei, Fan Hanbo― “Traffic Accident Automatic Detection And Remote Alarm Device” 978-1-4244-8039-5/11/2011 IEEE
+
+SeokJu Lee, Girma Tewolde and Jaerock Kwon: “Design and Implementation Vehicle Tracking System using GPS & GSM/GPRS Technology and Smartphone Application”, IEEE, pp. 353-358, 2014
+
+GONG xiaoyan, TANG shuming, WANG feiyue, “Traffic Incident Detection Algorithm Based on Non-parameter Regression” IEEE 2002. 
+
+B. Fernandes, V. Gomes, J. Ferreira, and A. Oliveira, “Mobile application for automatic accident detection and multimodal alert,” in Vehicular Technology Conference (VTC Spring). IEEE, 2015, pp. 1–5.
